@@ -2,6 +2,7 @@
 a {
     color:	#26FF26	;
 }
-background-color:black;
 </style>
-[test](asdf)
+<body style="background-color:black;">
+[test](asdf)  
+    </body>
