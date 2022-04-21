@@ -1,0 +1,34 @@
+<html>
+  <head>
+  <title>xss input</title>
+    <style>
+      l{
+      color:white;
+      }
+      br{
+      color:white
+      }
+      a{
+      color:	#00DB00
+      }
+      </style>
+    </head>
+  <h1><l>XSS input</l><h1>
+    <br>試著讓它輸出一些"特殊"的東西</br>
+    <br>Try to make it output something "special"</br>
+  <body style="background-color:black">
+<input type='text' id="Input">
+<button id="Button">send</button>
+  HELLO, <sapn id="Outcome"></sapn>
+<script>
+const Input=document.querySelector('#Input');
+  const Button=document.querySelector('#Button');
+  const Outcome=document.querySelector('#Outcome');
+  Button.addEventListener('click',()=>{
+  Outcome.innerHTML=Input.value;
+  })
+</script>
+    </body>
+  </html>
+  
+
