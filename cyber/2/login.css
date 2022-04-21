@@ -5,7 +5,7 @@ background-repeat: no-repeat;
 }
 #login_frame {
 width: 400px;
-height: 260px;
+height: 260px; 
 padding: 13px;
 position: absolute;
 left: 50%;
